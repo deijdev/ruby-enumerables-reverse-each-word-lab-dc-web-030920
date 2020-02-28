@@ -3,7 +3,6 @@ def reverse_each_word(string)
   
   string_1= [" "]
   text=string_1.each do |n|
-  text_2 = "Current number is: #{n}"
-  puts text
-end
+  text_2 = text.reverse
+  puts text_2
 end

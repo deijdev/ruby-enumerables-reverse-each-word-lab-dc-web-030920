@@ -1,7 +1,7 @@
-def reverse_each_word(array)
-  new_array = array.split(" ")
-  reversed_array = new_array.each {|x| x.reverse!}
-  return reversed_array.join(" ")
+def reverse_each_word(string)
+  new_string = string.split(" ")
+  reversed_string = new_string.each {|n| n.reverse!}
+  return reversed_string.join(" ")
 end
 
 # FIRST REFACTORED CODE

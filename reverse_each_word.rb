@@ -1,5 +1,6 @@
 def reverse_each_word(string)
   string= string.split("")
-  x= 0 
+  
+  string_1= [" "]
   
 end

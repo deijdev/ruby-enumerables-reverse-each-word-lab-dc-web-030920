@@ -3,5 +3,4 @@ def reverse_each_word(string)
   
   string_1= [" "]
   string_1.reverse
-  
 end
